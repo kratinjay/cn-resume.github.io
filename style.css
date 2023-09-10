@@ -1,0 +1,44 @@
+body{
+    margin : 0px;
+}
+
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px ;
+    margin: 0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal-list li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid white;
+}
+
+.text-center{
+    text-align: center;
+}
+name-social-container{
+    margin-top: 20vh;
+}
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
